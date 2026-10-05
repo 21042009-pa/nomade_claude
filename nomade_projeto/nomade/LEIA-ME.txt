@@ -1,0 +1,16 @@
+NOMADE - COMO RODAR
+
+Estrutura (completa):
+  *.html na raiz
+  assets/css/style.css
+  assets/js/theme.js, app.js
+  assets/js/layout/icons.js, layout.js
+  assets/js/integration/core.js, auth.js, dashboard.js, estoque.js,
+                         produtos.js, movimentacao.js, usuarios.js,
+                         relatorios.js, configuracoes.js, suporte.js
+
+1. Suba a API Node na porta 3000 (rotas: /usuarios, /usuarios/login,
+   /usuarios/:id/senha, /produtos, /fornecedores, /categorias, /lotes,
+   /movimentacoes-estoque).
+2. Abra o front em http://localhost:3000 (Express servindo esta pasta)
+   ou por Live Server (nesse caso a API precisa liberar CORS).
